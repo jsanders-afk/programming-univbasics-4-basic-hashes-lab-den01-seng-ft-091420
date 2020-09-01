@@ -3,7 +3,7 @@ def new_hash
 end
 
 def my_hash
-  pets { :mira => "cute", :kint => "orange", :mary => "boston" }
+  pets = { :mira => "cute", :kint => "orange", :mary => "boston" }
 end
 
 def pioneer
