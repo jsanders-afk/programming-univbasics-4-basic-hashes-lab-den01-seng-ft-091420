@@ -1,3 +1,4 @@
+require 'pry'
 def new_hash
   new = {}
 end
@@ -5,7 +6,7 @@ end
 def my_hash
   pets = { :mira => "cute", :kint => "orange", :mary => "boston" }
 end
-
+binding.pry
 def pioneer
   new = { name: "Grace Hopper"}
 end
